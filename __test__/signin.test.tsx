@@ -62,6 +62,7 @@ describe('Signin Component', () => {
         fireEvent.click(signUpLink);
 
         // After that click add assertion for navigation to the signup page
+        
     });
 
     test('navigates to forgot password page when "Forgot password" link is clicked', () => {

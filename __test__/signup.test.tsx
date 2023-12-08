@@ -4,6 +4,7 @@ import SignUp from "../pages/auth/signup";
 test("renders sign up form", () => {
     render(<SignUp />);
     
+    
     const fullNameInput = screen.getByPlaceholderText("Full name");
     const emailInput = screen.getByPlaceholderText("Email");
     const phoneNumberInput = screen.getByPlaceholderText("Phone Number");
